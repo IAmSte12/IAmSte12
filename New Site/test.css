@@ -1,0 +1,238 @@
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(12, 1, 107); 
+    border-left: none;
+    border-right: none;
+    margin-top: 200px;
+    border-bottom: none;
+ 
+}
+  
+  /* Style the links inside the navigation bar */
+  
+  .topnav a {
+    float: inline-end;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 20px; 
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: rgb(12, 1, 107);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: rgb(12, 1, 107);
+  }
+
+  
+  .topnav ul li {
+
+    display: inline-block;
+    list-style-type:none;
+   
+
+  }
+
+
+  td {
+    text-align: center;
+  }
+
+
+  .header {
+    padding: 0px;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(216, 24, 24);
+    font-size: 30px;
+  }
+
+
+
+/* properties of logo image */
+.logo-image {
+  width: 10px;
+  height: 10px;
+  border-radius: 10%;
+  overflow: visible;
+  margin-top: -50px;
+  position: relative;
+  left: -100px;
+  max-width: fit-content;
+  max-height: fit-content;
+
+}
+ 
+/* table properties */
+
+table {
+ 
+  position: relative;
+  margin-top: 15px;
+  padding: 30px;
+  margin:30px;
+
+}
+
+
+/* twitter logo properties */
+.twitter {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  overflow: visible;
+  margin-top: -110px;
+  position: relative;
+  left: 300px;
+  }
+
+  /*instragam logo */
+  .insta {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    overflow: visible;
+    margin-top: -10px;
+    position: relative;
+    left: 350px;
+    }
+
+
+/*gameweek the main part of the website */
+
+
+.gameweek { 
+   margin-top: 50px;
+   
+}
+
+ /*positioning of the header on the homepage*/
+h2 {
+  color: rgb(1, 0, 8);
+  position: relative; 
+  max-width: fit-content;
+  max-height: fit-content;
+  margin:0 auto;
+  left: 10px; 
+
+  
+}
+
+@media screen and (max-width: 2000x) and  (min-width:480px) {
+.rank {
+  
+  margin-top: 80px;
+  padding: 30px;
+  margin:30px;
+  
+  
+}
+}
+
+.about {
+
+  margin-top: 65px;
+  
+}
+
+
+
+.transfer {
+  
+  margin-top: 45px;
+}
+
+/* moves my sources to the position i want. */
+.sources {
+  margin-left: 210px;
+  font-size: 20px;
+}
+
+.bottomnav {
+  background-color: transparent;
+  overflow: hidden;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(253, 253, 253);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.bottomnav a {
+  float: left;
+  color: #acaaaa;
+  text-align: center;
+  padding: 15px 15px; 
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bottomnav ul li {
+
+  display: inline-block;
+  list-style-type: none;
+
+}
+ /*borders the images in the gameweek div */
+ 
+.gameweek img {
+
+  border-width: 4px;
+  border-color: rgb(12,1, 107);
+  border-style: solid;
+  max-width: 375px;
+  min-height: 250px;
+
+}
+
+
+
+
+
+.footer {
+
+  position: absolute;
+  bottom: 0;
+  width: fit-content;
+  height: 2.5rem; /* Footer height */
+  
+}
+
+
+
+@media only screen and (max-width:1200px) and (min-width:480px) {
+  body {
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    
+  
+  }
+}
+
+
+.gameweek ul li {
+  
+    list-style: none;
+    margin: 10px;   
+    padding: 5px;
+    padding-left: 0%;
+    text-align: left; 
+    display: inline-block;
+    
+
+
+}
+
