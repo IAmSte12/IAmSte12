@@ -1,0 +1,360 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    background: linear-gradient(#0e005a,#ff0000 );
+    
+}
+
+.navbar {
+    width:100%;
+    display:flex;
+    align-items: center; 
+    
+}
+
+
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.menu-icon {
+    width:25px;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+  
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+
+.row { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    background: #fff;
+    margin-top: -10%;
+    
+}
+
+.col-1 {
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10%;
+    background: #fff;
+    
+}
+
+.col-1 h2 {
+    font-size: 30px;
+    background: #fff;
+    
+}
+
+
+.col-1 p {
+    font-size: 16px;
+    color: #8a8a8a;
+    font-weight: 100;
+}
+
+
+.col-1::after {
+    content: '';
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(#0e005a,#ff0000 );
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+
+
+.col-2 {
+    position: relative;
+    flex-basis: 60%;
+    display:flex;
+    align-items: center;
+    background: #fff;
+}
+
+.col-2 .gameweek {
+    width: 100%;
+    
+  
+}
+
+
+
+.color-box {
+    position: absolute;
+    right:280px;
+    top:0px;
+    background: linear-gradient(#ff0000, #0e005a) ;
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 60%;
+    z-index: -1;
+    transform: translateX(130px);
+}
+
+
+
+.social-link img {
+    height: 60px;
+    margin: 20px;
+    cursor: pointer;
+
+
+}
+
+table {
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #707070;
+    text-align: center;
+    background: linear-gradient(#0e005a,#ff0000 );
+    color: #fff;
+    
+}
+
+.social-link {
+    text-align: center;
+}
+
+.footer{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #050505;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background: #2b2a2a;
+    width: 100%;
+    background: linear-gradient(#0e005a,#ff0000 );
+
+}
+
+.footer h2 {
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    font-weight: 100;
+}
+
+.nav-footer {
+    width:100%;
+    display:flex;
+    align-items: center; 
+    
+}
+
+ nav-footer {
+    flex: 1;
+    text-align: center;
+    
+}
+
+
+nav-footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav-footer ul li a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 18px;
+}
+
+nav-footer ul li a:hover {
+    color: black;
+    
+}
+
+ content-main ul li{
+     list-style-type: none;
+     margin-left: -42px;
+
+ }
+
+ 
+
+
+@media only screen and (max-width:700px) {
+
+
+    nav ul { 
+        width:1000px;
+        background: linear-gradient(#ffffff, #ffffff);
+        position: absolute;
+        top: 74px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        
+    }
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        
+    }
+    .menu-icon {
+        display: block;
+        margin-top: -70px;
+        
+
+    }
+      #menulist {
+
+        overflow: hidden;
+        transition: 0.5s;
+        
+
+    }
+
+    .row {
+        flex-direction: column;
+        margin: 50px 0;
+        margin-top: 10%;
+        position:relative;
+
+
+    }
+
+    .col-1 {
+        flex-basis: 100%;
+        position: relative;
+        margin-top: 10%;
+        
+        
+    }
+    .col-1 h2 {
+        font-size: 35px;
+
+    }
+    .col-2 {
+        flex-basis: 100%;
+        margin-left: 40px;
+        
+        
+    }
+
+    .col-2 .gameweek {
+        width: 100%;
+        max-width: 100%;
+  
+
+    }
+
+
+    .color-box {
+        transform: translateX(75px);
+    }
+
+
+    
+
+    .logo {
+        width: 40%;
+        z-index: 3;
+        margin-top: 70px;
+
+    }
+
+    table {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    
+    nav-footer {
+        flex: 1;
+        text-align: left;
+        
+    }
+    
+
+    nav-footer ul li {
+        list-style-type: none;
+        display: inline-block;
+
+    }
+    
+    nav-footer ul li a {
+        text-decoration: none;
+        color: rgb(253, 253, 253);
+        font-size: 17px;
+    }
+    
+    nav-footer ul li a:hover {
+        color: black;
+        
+    }
+
+    .social-link img {
+        height: 60px;
+        margin: 20px;
+        cursor: pointer;
+    
+    
+    }
+
+} 
+
+@media (max-width: 767px) {
+   nav-footer ul li {
+      display: block !important;
+    }
+
+  }
+
+
+
+
+

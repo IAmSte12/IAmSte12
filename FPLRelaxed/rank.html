@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fantasy football blog</title>
+        <link rel="stylesheet" href="fpl.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/FPL_Log.png" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="transfers.html">Transfer History</a></li>
+                        <li><a class="active" href="rank.html">Rank History</a></li>
+                        
+                    </ul>
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+   
+            
+            <table style="width: 500px;">
+                     <tr>
+                      <th>Season</th>
+                      <th>Points</th>
+                      <th>Rank</th>
+                     </tr>
+                     <tr>
+                       <td>2021/2022</td>
+                       <td>  2239</td>
+                       <td>	965196  </td>
+                   </tr>
+                   
+                 </tr>
+            </table>      
+   <br><br>
+   
+            <div class="footer">
+               <br>
+               <div class="social-link">
+                   <a href="https://twitter.com/FplRelaxed"> <img src="images/twitter.png"> </a>
+                   <a href="instagram"> <img src="images/insta.png"> </a>
+               </div>
+               <br>
+                <h2>  &nbsp; &nbsp;&nbsp; &nbsp;Sources & Sites Used:</h2>
+                <div class="nav-footer">
+                    
+                    <nav-footer>
+                <ul>
+                   <li><a href="https://fantasy.premierleague.com/" target="_blank"> Fantasy Premier League</a></li>
+                   <li><a href="https://fpl.team/" target="_blank"> FPL.Team</a></li>
+                   <li><a href="http://www.fplstatistics.co.uk/" target="_blank"> FPLStatistics.co.uk </a></li>
+                   <li><a href="https://ffstuff.co.uk/index.php" target="_blank"> FFstuff.co.uk</a></li>
+                   <li><a href="https://checkthechance.com/english-premier-league/" target="_blank"> CheckTheChance.com</a></li>
+                   <li><a href="https://www.fotmob.com/" target="_blank">FotMob</a></li>
+                 </ul>
+                 </nav-footer>
+                 
+           </div>
+   
+           </div>
+   
+            
+            <script>
+   
+               var menuList = document.getElementById("menuList");
+       
+               menuList.style.maxHeight = "0px";
+       
+               function togglemenu () {
+                   if (menuList.style.maxHeight == "0px") 
+                   {
+                       menuList.style.maxHeight = "130px";
+                   }
+                   else 
+                   {
+                       menuList.style.maxHeight = "0px";
+       
+                   }
+       
+               }
+       
+       
+           </script>     
+
+    </body>
+
+
+    </html>
